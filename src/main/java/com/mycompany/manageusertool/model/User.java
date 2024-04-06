@@ -23,4 +23,5 @@ public class User {
     private String firstName;
     @Column(nullable = false,length =45, name = "last_name")
     private String lastName;
+    private boolean enabled;
 }
